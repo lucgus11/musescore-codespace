@@ -1,0 +1,12 @@
+{
+  "name": "MuseScore 4 GUI",
+  "image": "mcr.microsoft.com/devcontainers/desktop-lite:ubuntu-22.04",
+  "postCreateCommand": "bash .devcontainer/setup-gui.sh",
+  "forwardPorts": [6080],
+  "portsAttributes": {
+    "6080": {
+      "label": "noVNC Desktop",
+      "onAutoForward": "openBrowser"
+    }
+  }
+}
