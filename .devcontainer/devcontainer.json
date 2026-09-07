@@ -1,6 +1,6 @@
 {
   "name": "MuseScore 4 GUI",
-  "image": "mcr.microsoft.com/devcontainers/desktop-lite:1-ubuntu-22.04",
+  "image": "mcr.microsoft.com/devcontainers/desktop-lite:ubuntu-22.04",
   "postCreateCommand": "bash .devcontainer/setup-gui.sh",
   "forwardPorts": [6080],
   "portsAttributes": {
